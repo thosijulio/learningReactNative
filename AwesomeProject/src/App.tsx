@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import MinMax from './components/MinMax';
 import CompPadrao, { Comp1, Comp2 } from './components/Multi';
 import Primeiro from './components/Primeiro';
 
@@ -18,6 +19,7 @@ const App: () => JSX.Element = () => {
       <Comp1 />
       <Comp2 />
       <Primeiro />
+      <MinMax min={1} max={10} />
     </SafeAreaView>
   );
 }
