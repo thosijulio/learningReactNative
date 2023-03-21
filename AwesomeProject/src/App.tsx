@@ -10,6 +10,7 @@ const style = StyleSheet.create({
 })
 
 const App: () => JSX.Element = () => {
+  console.warn("Aqui!");
   return (
     <SafeAreaView style={style.App}>
       <Text>Aqui</Text>
