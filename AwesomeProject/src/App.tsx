@@ -1,17 +1,16 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
 import {SafeAreaView, Text} from 'react-native';
+import CompPadrao, { Comp1, Comp2 } from './components/Multi';
+import Primeiro from './components/Primeiro';
 
-function App(): JSX.Element {
+const App: () => JSX.Element = () => {
   return (
     <SafeAreaView>
       <Text>Aqui</Text>
+      <CompPadrao />
+      <Comp1 />
+      <Comp2 />
+      <Primeiro />
     </SafeAreaView>
   );
 }
