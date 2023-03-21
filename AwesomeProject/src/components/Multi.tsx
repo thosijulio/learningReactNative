@@ -1,20 +1,22 @@
+import React from "react";
 import { Text } from "react-native";
+import estilo from "./estilo";
 
-export const Comp1 = () => {
+export const Comp1: () => JSX.Element = () => {
     return (
-        <Text>Comp #01</Text>
+        <Text style={estilo.txtG}>Comp #01</Text>
     )
 }
 
-export const Comp2 = () => {
+export const Comp2: () => JSX.Element = () => {
     return (
-        <Text>Comp #02</Text>
+        <Text style={estilo.txtG}>Comp #02</Text>
     )
 }
 
-const CompPadrao = () => {
+const CompPadrao: () => JSX.Element = () => {
     return (
-        <Text>Comp #Oficial</Text>
+        <Text style={estilo.txtG}>Comp #Oficial</Text>
     )
 }
 

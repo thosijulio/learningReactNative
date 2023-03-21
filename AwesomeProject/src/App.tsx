@@ -1,11 +1,17 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {SafeAreaView, StyleSheet, Text} from 'react-native';
 import CompPadrao, { Comp1, Comp2 } from './components/Multi';
 import Primeiro from './components/Primeiro';
 
+const style = StyleSheet.create({
+  App: {
+    backgroundColor: "#A00",
+  },
+})
+
 const App: () => JSX.Element = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={style.App}>
       <Text>Aqui</Text>
       <CompPadrao />
       <Comp1 />

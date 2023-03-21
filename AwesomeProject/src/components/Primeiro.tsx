@@ -1,6 +1,7 @@
+import React from "react";
 import { Text } from "react-native";
 
-const Primeiro = () => {
+const Primeiro: () => JSX.Element = () => {
     return (
         <Text>Primeiro!</Text>
     )
